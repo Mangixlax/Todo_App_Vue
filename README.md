@@ -1,18 +1,32 @@
-# todo_app_vue
+1) Для того чтоб успешно собрать данное приложение на ОС долже быть установлен Node Js, Git, GitHub Desktop и Также Vue Cli
 
-> (TodoAppVue)
+Установить Node Js - https://nodejs.org/en/
 
-## Build Setup
+Установить Git - https://git-scm.com/downloads
 
-``` bash
-# install dependencies
-npm install
+Установить Github Desktop - https://desktop.github.com/
 
-# serve with hot reload at localhost:8080
-npm run dev
+Установить Vue Cli глобально - выполнить в коммандной строке команду: npm i vue-cli -g
 
-# build for production with minification
-npm run build
-```
+Проверить глобальную установку модулей верхнего уровня: npm ls -g --dept=0
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Добавить необходимые модули для сборки проекта: npm i
+
+2) Для сборки требуется выполнить следующие действия в коммандной строке или терминале:
+
+Перейти в ту дерикторию куда хотим клонировать репозиторий: cd "путь к диретории"  ; Пример: cd C:\Users\Аслан\Documents\GitHubp
+
+Скачать репозиторий на диск к себе в директорию: git clone "ссылка на репозиторий"; Пример: git clone https://github.com/Mangixlax/Todo_App_Vue.git
+
+Перейти в папку с репозиторием: cd "путь к репозиторию"; Пример: cd C:\Users\Аслан\Documents\GitHub\Todo_App_Vue
+
+Установить локально модули сборщика: npm i
+
+Запустить сборщик: npm run build
+
+*для теста файла index.html без использования порта :8080 в строке № 11(<script src="/dist/build.js"></script>) удалить слэш перед dist.
+
+Всё!
+
+Скачать шаблон сборки в деррикторию для создание проекта: vue init webpack-simple* - для справки
+
